@@ -27,15 +27,17 @@ function dec(n) {
 }
 
 function makeInt(a) {
-  if (a === NaN) {
+  var num = parseInt('a');
+  if (num === NaN) {
     return NaN;
   }
-  return parseInt('a');
+  return parseInt(num);
 }
 
 function perserveDecimal(a) {
-  if (a === NaN) {
+  var num = parseFloat('a');
+  if (num === NaN) {
     return NaN;
   }
-  return parseFloat('a');
+  return parseFloat(num);
 }
