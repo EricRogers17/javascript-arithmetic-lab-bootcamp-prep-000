@@ -34,8 +34,8 @@ function makeInt(a) {
   return parseInt(num);
 }
 
-function perserveDecimal(a) {
-  var num = parseFloat(a, 10);
+function preserveDecimal(a) {
+  var num = parseFloat(a);
   if (num === NaN) {
     return NaN;
   }
