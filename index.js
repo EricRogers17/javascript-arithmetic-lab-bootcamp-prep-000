@@ -16,13 +16,13 @@ function divide(a, b) {
 
 function inc(n) {
   var num = n
-  num += n;
+  num += 1;
   return num;
 }
 
 function dec(n) {
   var num = n;
-  num -= n;
+  num -= 1;
   return num;
 }
 
